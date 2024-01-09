@@ -1,0 +1,30 @@
+var1 = True
+var2 = False
+print(type(var1))
+print(var1)
+
+numero = 5 > 2+3
+print(type(numero))
+print(numero)
+
+numero2 = 5 == 2+3
+print(type(numero2))
+print(numero2)
+
+numero3 = 5 != 2+3
+print(type(numero3))
+print(numero3)
+
+
+numero6 = bool(5<6)
+print(type(numero6))
+print(numero6)
+
+lista = [1,2,3,4]
+control = 5 in lista
+print(type(control))
+print(control)
+
+
+redes = ["Youtube","Facebook","Twitter","Whatsapp"]
+redes.sort()
