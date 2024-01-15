@@ -13,7 +13,6 @@ colores = ['azul','rojo','verde','amarillo'] # eleccion aleatoria en una lista
 aleatorio = choice(colores) 
 print(aleatorio)
 
-numeros = list(range(5,50,5))
-
-shuffle(numeros)
+numeros = list(range(5,50,5)) #Combinacion de la lista (cambiando orden)
+shuffle(numeros) ##Shuffle no se puede almacenar en una lista - > no se puede usar con strings porque son objetos inmutables
 print(numeros)
