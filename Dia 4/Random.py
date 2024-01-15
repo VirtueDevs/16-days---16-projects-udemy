@@ -6,7 +6,7 @@ print(aleatorio)
 decimal_aleatorio = round(uniform(1,5),1) #Numeros decimales aleatorios, ENTRE 1 Y 5 CON UN DECIMAL DESPUES DEL PUNTO.
 print(decimal_aleatorio)
 
-numero_random = aleatorio = random()
+numero_random = random()
 print(numero_random)
 
 colores = ['azul','rojo','verde','amarillo'] # eleccion aleatoria en una lista
