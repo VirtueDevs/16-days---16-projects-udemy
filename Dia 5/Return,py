@@ -1,0 +1,10 @@
+def multiplicar(numero1,numero2):
+    # return numero1 * numero2
+    # Print(total)
+    total = numero1 * numero2
+    return total
+
+print(multiplicar(5,10))
+
+resultado = multiplicar(5,10)
+print(resultado)
