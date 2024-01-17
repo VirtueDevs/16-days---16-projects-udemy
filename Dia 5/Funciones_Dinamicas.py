@@ -20,5 +20,5 @@ def chequear_3_cifra(lista):
 
     return False
 
-result = chequear_3_cifra([29, 30,500])
+result = chequear_3_cifra([299, 30,500])
 print(result)
