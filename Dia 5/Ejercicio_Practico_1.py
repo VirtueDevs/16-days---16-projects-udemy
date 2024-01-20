@@ -1,17 +1,14 @@
-def devolver_distintos(*args):
-    suma = []
-    for arg in args:
-        suma.append(arg)
-        suma.sort()
+def devolver_distintos(a,b,c):
+    suma = a+b+c
+    total = [a,b,c]
 
-    total = sum(suma)
-
-    if total > 15:
-        return(max(suma))
-    elif 10 <= total <= 15:
-        return(suma[1])
+    if suma > 15:
+        return(max(total))
+    elif suma < 10:
+        return(min(total))
     else:
-        return(min(suma))
+        total.sort()
+        return(total[1])
 
-print(devolver_distintos(1,12,2))
+print(devolver_distintos(1,12,3))
 
