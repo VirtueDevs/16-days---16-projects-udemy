@@ -10,3 +10,11 @@ archivo.close()
 archive = open('prueba.txt', 'w')
 archive.writelines(['hola',  'mundo', 'aquí', 'estoy'])
 archive.close()
+
+#lista = ['hola',  'mundo', 'aquí', 'estoy']
+
+'''for p in lista:
+    archivo.write(p + '\n')
+archivo.close()'''
+
+#archivo = open('prueba.txt', 'a') -> empieza a escribir desde el final del archivo
