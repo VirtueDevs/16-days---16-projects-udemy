@@ -17,4 +17,5 @@ archive.close()
     archivo.write(p + '\n')
 archivo.close()'''
 
+#prueba1
 #archivo = open('prueba.txt', 'a') -> empieza a escribir desde el final del archivo
