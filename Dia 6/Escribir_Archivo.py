@@ -19,8 +19,3 @@ archivo.close()'''
 
 #prueba1
 #archivo = open('prueba.txt', 'a') -> empieza a escribir desde el final del archivo
-# prueba
-
-archive = open('prueba.txt', 'a')
-archive.write('prueba')
-archive.close()
