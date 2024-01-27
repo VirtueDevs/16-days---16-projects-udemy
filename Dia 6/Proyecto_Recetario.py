@@ -5,22 +5,16 @@ lista_catergorias = ["Carnes", "Ensaladas", "Pastas", "Postres"]
 ruta_receta = Path("C:\\Users\\Andres\\Desktop\\Recetas")
 
 def leer_receta():
-    
-    elegir_categoria = input("¿Qué categoría quieres ver?:\n 1.Carnes\n 2. Ensaladas\n 3. Pastas\n 4. Postres\n ")
+    return
 
-    if elegir_categoria == "1":
-        lista_carnes = []
-        ruta_carnes = Path(ruta_receta, Path('Recetas\\Carnes'))
-        elementos_carnes = os.listdir(ruta_carnes)
-        numero_recetas_carnes = len(elementos_carnes)
-        print(f"Ingresaste a la categoría {lista_catergorias[0]}. Actualmente hay {numero_recetas_carnes} recetas")
-        for elemento_carnes in elementos_carnes:
-            lista_carnes.append(elemento_carnes)
-        print(f"Las recetas disponibles son: {lista_carnes}")
-        
+def crear_receta():
+    return
 
+def editar_receta():
+    return
 
-
+def eliminar_receta():
+    return
 
 
 
