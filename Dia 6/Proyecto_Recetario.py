@@ -1,3 +1,5 @@
+'''Recetario proyecto dia 6.'''
+
 import os
 from pathlib import Path
 from os import system
@@ -174,3 +176,4 @@ while not finalizar_programa:
         volver_inicio()
     elif menu == 6:
         finalizar_programa = True
+
